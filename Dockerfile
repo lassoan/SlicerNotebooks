@@ -1,4 +1,4 @@
-FROM lassoan/slicer-notebook:v002
+FROM lassoan/slicer-notebook:v004
 
 COPY --chown=sliceruser . ${HOME}/nb
 WORKDIR ${HOME}/nb
